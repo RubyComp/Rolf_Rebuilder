@@ -1,0 +1,100 @@
+[name="name"],
+[name="description"],
+[name="code"],
+
+[name*="PROP[52]"],
+[name*="PROP[53]"],
+[name*="PROP[57]"],
+[name*="PROP[62]"],
+[name*="PROP[72]"],
+[name*="PROP[98]"],
+[name*="PROP[212]"],
+[name*="PROP[210]"],
+/* [name*="PROP[223]"], */
+[name*="PROP[214]"],
+[name*="PROP[230]"],
+
+[id="52"],
+[id="57"],
+[id="214"],
+
+[href="#nav-58"],
+[href="#nav-59"],
+
+[name*="PROP[210]"] + .chosen-container a,
+[name="folder_id"]
+
+{background: #ffaa501c !important;}
+
+
+.col-sm-offset-2 {
+	background: #f1f1f1;
+	border-top-left-radius: 16px;
+	border-width: 1px 1px 0;
+	border: 1px solid lightgrey;
+	bottom: 0;
+	padding: 1.2em 1.4em;
+	position: fixed;
+	right: 0;
+	text-align: right;
+}
+body {border-right:1px solid lightgrey;}
+
+
+[name*="PROP[62]"]:before {
+	content: "Начало:";
+	color: #b0b1b2;
+	width: 4.5em;
+}
+[name*="PROP[72]"]:before {
+	content: "Конец: ";
+	color: #b0b1b2;
+	width: 4.5em;
+}
+
+#date_section {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	right: 0;
+	top: 170px;
+	z-index: 999;
+}
+#date_update_btn {
+	line-height: 1.2em;
+	padding: .6em 2em .44em
+}
+[name*="PROP[62]"],
+[name*="PROP[72]"]  {
+	background: #f1f1f1 !important;
+	border: 1px solid lightgrey;
+	font-weight: bold;
+	width: 18vw;
+	z-index: 999;
+}
+[name*="PROP[72]"] {
+	top: 204px;
+	border-width: 0 1px 1px;
+}
+[data-toggle="modal"] {
+	border-radius: 60px;
+	padding-right: 20px;
+}
+[name*="PROP[230]"] {
+	min-height: 40em !important;
+	overflow: visible;
+}
+.icheckbox_square-green {
+	border: 1px solid #f1f1f1;
+	padding: 11px 13px 10px 10px;
+}
+
+[name*="PROP[212]"] > [value="47"],
+[name*="PROP[210]"] > [value="50"] {
+	font-size: 120%;
+	font-weight: bold;
+}
+[name="folder_id"] {
+	height: 14em !important;
+	overflow: visible;
+}

@@ -1,0 +1,120 @@
+.note-editor,
+.note-editable,
+.note-toolbar {
+	height: initial !important;
+	max-height: initial !important;
+}
+.note-editor,
+.note-codable {
+	min-height: 250px
+}
+.note-toolbar {
+	border-top: 1px solid #cfd0d2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+.note-toolbar > * {
+	border-right: 1px solid #e1e2e3;
+}
+.note-toolbar > *:last-child {
+	border-right: none;
+}
+.note-toolbar .btn {
+	background: transparent !important;
+	border: none;
+	padding: 6px 12px;
+	font-size: 14px
+}
+.note-editor .btn:active, .note-editor .btn.active {
+	box-shadow: none !important;
+	background: #ced1d4 !important;
+	border-bottom-right-radius: 2px!important;
+    border-top-right-radius: 2px!important;
+}
+.note-style,
+.note-para,
+.note-fontname,
+.note-table,
+.note-insert,
+.note-salon {
+	display: none !important;
+}
+/**/
+.note-editable p {
+	background: #1b1b1b08;
+	border: dotted 1px #bdbebf;
+	min-height: 1.5em;
+}
+.note-editable a {
+	text-decoration: underline;
+}
+.note-editable span {
+	border: dotted 1px #ffa280;
+	background: #ff7f5126;
+	min-height: 1.5em;
+}
+.note-editable span:before,
+.note-editable span:after {
+	content: ' ';
+	min-width: .1em;
+	display: inline-block;
+}
+.note-editable ul {
+	border: dotted 1px #9cbcd6;
+	background: #9cbcd636;
+	min-height: 1.5em;
+}
+.note-editable li {
+	border: dotted 1px #adcbd8;
+	background: #adcbd836;
+	min-height: 1.5em;
+	margin: .4em 0;
+}
+.note-editable div {
+	border: dotted 1px #e19696;
+	background: #f48f8f36;
+	margin: .4em 0;
+}
+.note-editable table {
+	border: dotted 1px #bfd1df;
+	background: #eef4f8;
+	margin: 2em 0;
+}
+.note-editable tr {
+	border-bottom: dotted 1px #b5c4d0;
+}
+.note-editable th {
+	background: #cddde7;
+}
+.note-editable sup {
+	background: coral;
+	color: white;
+	padding: .1em .3em;
+}
+.note-editable sub {
+	background: #f00707;
+	color: white;
+	padding: .1em .3em;
+}
+.note-editable * > * {
+	margin: .32em;
+}
+/**/
+.note-editor .note-codable {
+	background: #37474F;
+	color: #e8e8e8
+}
+
+/**/
+
+.preview-img:hover {
+	box-shadow: 1px 1px 2px rgba(45, 46, 47, .8);
+	position: absolute;
+	transform: scale(4);
+	transition: 1.8s;
+	z-index: 99999999;
+}
+.img-container {
+	height: 80px;
+}

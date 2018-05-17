@@ -1,0 +1,32 @@
+#list_area {
+	background: #000000;
+	border: none;
+	bottom: 0;
+	box-shadow: 1px 1px 2px #9e9e9e !important;
+	color: white !important;
+	cursor: default;
+	font-size: 12px;
+	height: 55vh;
+	left: 0;
+	line-height: 1.4em;
+	opacity: .78;
+	overflow: hidden;
+	padding: 1.8em .32em .32em .32em;
+	position: fixed;
+	resize: none;
+	transition: .3s;
+	width: 11em;
+	z-index: 999999999;
+}
+#list_area > * {
+	transition: .5s;
+}
+#list_area > hr {
+	opacity: .55;
+}
+#list_area:hover {
+	color: white !important;
+	height: 55vh;
+	overflow: initial;
+	width: 22vw;
+}
